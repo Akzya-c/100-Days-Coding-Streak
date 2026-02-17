@@ -5,7 +5,7 @@ class Solution(object):
             if num in seen:
                 return True
             seen.add(num)
-        return False 
+        return False
 
 
 sol = Solution()
