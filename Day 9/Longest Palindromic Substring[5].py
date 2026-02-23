@@ -1,4 +1,4 @@
-class Solution:
+y 9/class Solution:
     def longestPalindrome(self, s: str) -> str:
         if not s:
             return ""
