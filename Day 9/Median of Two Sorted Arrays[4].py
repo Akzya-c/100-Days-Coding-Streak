@@ -1,6 +1,6 @@
 class Solution:
     def findMedianSortedArrays(self, nums1, nums2):
-        # Ensure nums1 is the smaller array
+       
         if len(nums1) > len(nums2):
             nums1, nums2 = nums2, nums1
         
