@@ -1,5 +1,5 @@
 class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
+    def lengthOfLongest(self, s: str) -> int:
         chars = {} 
         start = 0
         max_length = 0
@@ -13,6 +13,4 @@ class Solution:
             
            
             chars[c] = end
-            
-        return max_length
-
+            return max_length
