@@ -15,4 +15,3 @@ class Solution(object):
             if value !=0:
                 return False
         return True
-            
