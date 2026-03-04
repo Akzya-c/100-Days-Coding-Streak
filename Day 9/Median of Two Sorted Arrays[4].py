@@ -6,7 +6,6 @@ class Solution:
         
         m, n = len(nums1), len(nums2)
         left, right = 0, m
-        
         while left <= right:
             i = (left + right) // 2
             j = (m + n + 1) // 2 - i
