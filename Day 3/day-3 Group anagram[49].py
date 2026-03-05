@@ -1,4 +1,4 @@
-def groupAnagrams(self, strs):
+def groupAnagram(self, strs):
     group={}
     for word in strs:
         key=''.join(sorted(word))
