@@ -8,8 +8,6 @@ class Solution(object):
         for i in range(len(s)):
             c1 = s[i]
             c2 = t[i]
-
-           
             if c1 in mapST:
                 if mapST[c1] != c2:
                     return False
@@ -22,5 +20,4 @@ class Solution(object):
                     return False
             else:
                 mapTS[c2] = c1
-
         return True
