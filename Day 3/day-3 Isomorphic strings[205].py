@@ -4,7 +4,6 @@ class Solution(object):
             return False
         mapST = {}
         mapTS = {}
-
         for i in range(len(s)):
             c1 = s[i]
             c2 = t[i]
@@ -13,8 +12,6 @@ class Solution(object):
                     return False
             else:
                 mapST[c1] = c2
-
-            
             if c2 in mapTS:
                 if mapTS[c2] != c1:
                     return False
