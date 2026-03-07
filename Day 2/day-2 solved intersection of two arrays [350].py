@@ -4,4 +4,3 @@
                 result.append(num)
                 nums1.remove(num)
         return result
-
