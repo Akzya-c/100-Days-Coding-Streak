@@ -5,5 +5,4 @@ class Solution(object):
         for num in nums2:
             if num in set1:
                 result.add(num)
-                
         return list(result)
