@@ -6,15 +6,15 @@ class Solution {
 
         while (s <= e) 
         {
-            int mid = s + (e - s) / 2;
+            int Mid = s + (e - s) / 2;
 
-            if (letters[mid] <= target) 
+            if (letters[Mid] <= target) 
             {
-                s = mid + 1;
+                s = Mid + 1;
             }
             else 
             {
-                e = mid - 1;
+                e = Mid - 1;
             }
         }
 
