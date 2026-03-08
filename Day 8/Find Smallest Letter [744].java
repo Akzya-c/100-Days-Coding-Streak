@@ -1,5 +1,5 @@
 class Solution {
-    public char nextGreatestLetter(char[] letters, char target) 
+    public char nextGreatest(char[] letters, char target) 
     {
         int s = 0;
         int e = letters.length - 1;
