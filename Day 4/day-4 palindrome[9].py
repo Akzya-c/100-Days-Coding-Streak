@@ -11,6 +11,3 @@ class Solution(object):
         if (o==temp):
             return True
         return False
-
-            
-
