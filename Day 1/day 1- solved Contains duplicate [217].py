@@ -6,7 +6,6 @@ class Solution(object):
                 return True
             seen.add(num)
         return False
-
 sol = Solution()
 nums = [1, 2, 3, 1]
 print(sol.containsDuplicate(nums))
