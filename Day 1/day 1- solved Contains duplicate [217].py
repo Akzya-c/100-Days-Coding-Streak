@@ -10,6 +10,4 @@ class Solution(object):
 
 sol = Solution()
 nums = [1, 2, 3, 1]
-
-
 print(sol.containsDuplicate(nums))
