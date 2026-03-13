@@ -18,7 +18,6 @@ class Solution {
                 result[1]=j;
                 break;
             }
-            
         }
         return result;
     }
